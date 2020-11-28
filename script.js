@@ -1,15 +1,11 @@
-//make the check list clickable
-//x for remove 
-//there are check box for the list
-//when green arrow is showed on the text box the background color of the item become darker
 let list_count = 0;
 function create_list(){
     let create_list = document.createElement("div");
     let list_data = document.getElementById("add_list").value;
     let div = document.getElementById("check_list");
     create_list.id ="list" + list_count;
-    let check_mark = "<img src ='image/Angry.png' height ='10px' width ='10px'>"
-    let cancle_mark = "<img src ='image/Aqua_cry.png' height ='10px' width ='10px'>"
+    let check_mark = "<img src ='img1' height ='20px' width ='20px'>"
+    let cancle_mark = "<img src ='img2' height ='20x' width ='20px'>"
     create_list.innerHTML = check_mark + list_data + cancle_mark;
     // create_list.style.display ="inline-block";
     div.appendChild(create_list);
