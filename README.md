@@ -1,3 +1,3 @@
 # Hacktable
 
-<h1>Create a online to do list</h1>
+<h1>Create an online to do list</h1>
